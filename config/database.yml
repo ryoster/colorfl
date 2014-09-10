@@ -21,7 +21,6 @@ test:
   database: db/test.sqlite3
 
 production:
-<<<<<<< HEAD
   adapter: postgresql
   encoding: unicode
   database: de0n23vvm7h4m
@@ -30,7 +29,3 @@ production:
   password: 16khmXSoLFQiBQx_w9TQY41BCN
 #  <<: *default
 #  database: db/production.sqlite3
-=======
-  <<: *default
-  database: db/production.sqlite3
->>>>>>> d732f67ae569d355108fc298ebe330b6749ac0e3
